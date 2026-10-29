@@ -11,8 +11,8 @@ version to keep in step.
     <th>Web UI</th>
   </tr>
   <tr>
-    <td><video src="assets/real.mp4" height="360" controls muted></video></td>
-    <td><video src="assets/robotiq_viser.mp4" height="360" controls muted></video></td>
+    <td><a href="assets/real.mp4"><img src="assets/real.gif" height="360"></a></td>
+    <td><a href="assets/robotiq_viser.mp4"><img src="assets/robotiq_viser.gif" height="360"></a></td>
   </tr>
 </table>
 
