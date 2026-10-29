@@ -1,0 +1,5 @@
+# pip install -r requirements.txt
+pyserial>=3.5      # serial port access (the Modbus RTU layer is implemented in-tree)
+viser>=1.1         # web UI + 3D viewer
+yourdfpy>=0.0.56   # URDF parsing for the gripper model
+numpy

@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="robotiq_2f_85">
+  <link name="robotiq_2f_85_base">
+    <inertial>
+      <mass value="0.1" />
+      <origin xyz="0 0 0.055" />
+      <inertia ixx="0.000190833333333" ixy="0" ixz="0" iyy="0.00018" iyz="0" izz="0.000190833333333" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/base.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="Blanc" />
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="meshes/base.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="robotiq_2f_85_right_driver">
+    <inertial>
+      <mass value="0.1" />
+      <origin xyz="0 0 0.055" />
+      <inertia ixx="0.000190833333333" ixy="0" ixz="0" iyy="0.00018" iyz="0" izz="0.000190833333333" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/driver.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="Blanc" />
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="meshes/driver.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="robotiq_2f_85_right_coupler">
+    <inertial>
+      <mass value="0.1" />
+      <origin xyz="0 0 0.055" />
+      <inertia ixx="0.000190833333333" ixy="0" ixz="0" iyy="0.00018" iyz="0" izz="0.000190833333333" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/coupler.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="Blanc" />
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="meshes/coupler.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="robotiq_2f_85_right_follower">
+    <visual>
+      <geometry>
+        <mesh filename="meshes/follower.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="Blanc" />
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="meshes/follower.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.1" />
+      <origin xyz="0 0 0.055" />
+      <inertia ixx="0.000190833333333" ixy="0" ixz="0" iyy="0.00018" iyz="0" izz="0.000190833333333" />
+    </inertial>
+  </link>
+  <link name="robotiq_2f_85_right_pad">
+    <inertial>
+      <mass value="0.1" />
+      <origin xyz="0 0 0.055" />
+      <inertia ixx="0.00019" ixy="0" ixz="0" iyy="0.00018" iyz="0" izz="0.00019" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/pad.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="Blanc" />
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="meshes/pad.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="robotiq_2f_85_right_spring_link">
+    <inertial>
+      <mass value="0.1" />
+      <origin xyz="0 0 0.055" />
+      <inertia ixx="0.000190833333333" ixy="0" ixz="0" iyy="0.00018" iyz="0" izz="0.000190833333333" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/spring_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="Blanc" />
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="meshes/spring_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="robotiq_2f_85_left_driver">
+    <inertial>
+      <mass value="0.1" />
+      <origin xyz="0 0 0.055" />
+      <inertia ixx="0.000190833333333" ixy="0" ixz="0" iyy="0.00018" iyz="0" izz="0.000190833333333" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/driver.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="Blanc" />
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="meshes/driver.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="robotiq_2f_85_left_coupler">
+    <inertial>
+      <mass value="0.1" />
+      <origin xyz="0 0 0.055" />
+      <inertia ixx="0.000190833333333" ixy="0" ixz="0" iyy="0.00018" iyz="0" izz="0.000190833333333" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/coupler.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="Blanc" />
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="meshes/coupler.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="robotiq_2f_85_left_follower">
+    <visual>
+      <geometry>
+        <mesh filename="meshes/follower.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="Blanc" />
+    </visual>
+    <inertial>
+      <mass value="0.1" />
+      <origin xyz="0 0 0.055" />
+      <inertia ixx="0.000190833333333" ixy="0" ixz="0" iyy="0.00018" iyz="0" izz="0.000190833333333" />
+    </inertial>
+  </link>
+  <link name="robotiq_2f_85_left_pad">
+    <inertial>
+      <mass value="0.1" />
+      <origin xyz="0 0 0.055" />
+      <inertia ixx="0.00019" ixy="0" ixz="0" iyy="0.00018" iyz="0" izz="0.00019" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/pad.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="Blanc" />
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="meshes/pad.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="robotiq_2f_85_left_spring_link">
+    <inertial>
+      <mass value="0.1" />
+      <origin xyz="0 0 0.055" />
+      <inertia ixx="0.000190833333333" ixy="0" ixz="0" iyy="0.00018" iyz="0" izz="0.000190833333333" />
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/spring_link.stl" scale="0.001 0.001 0.001" />
+      </geometry>
+      <material name="Blanc" />
+    </visual>
+  </link>
+  <joint name="robotiq_2f_85_right_driver_joint" type="revolute">
+    <origin rpy="0 0 0" xyz="0 0.0306011 0.054904" />
+    <parent link="robotiq_2f_85_base" />
+    <child link="robotiq_2f_85_right_driver" />
+    <axis xyz="1 0 0" />
+    <limit effort="60" lower="0.0" upper="0.834" velocity="1.91986177778" />
+  </joint>
+  <joint name="robotiq_2f_85_right_coupler_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0.0315 -0.0041" />
+    <parent link="robotiq_2f_85_right_driver" />
+    <child link="robotiq_2f_85_right_coupler" />
+  </joint>
+  <joint name="robotiq_2f_85_right_follower_joint" type="revolute">
+    <origin rpy="0 0 0" xyz="0 0.0061 0.0471" />
+    <parent link="robotiq_2f_85_right_coupler" />
+    <child link="robotiq_2f_85_right_follower" />
+    <axis xyz="1 0 0" />
+    <limit effort="176" lower="-2.96705911111" upper="2.96705911111" velocity="1.91986177778" />
+    <mimic joint="robotiq_2f_85_right_driver_joint" multiplier="-1" />
+  </joint>
+  <joint name="robotiq_2f_85_right_pad_joint" type="fixed">
+    <parent link="robotiq_2f_85_right_follower" />
+    <child link="robotiq_2f_85_right_pad" />
+  </joint>
+  <joint name="robotiq_2f_85_right_spring_link_joint" type="revolute">
+    <origin rpy="0 0 0" xyz="0 0.012 0.0614" />
+    <parent link="robotiq_2f_85_base" />
+    <child link="robotiq_2f_85_right_spring_link" />
+    <axis xyz="1 0 0" />
+    <limit effort="176" lower="-2.96705911111" upper="2.96705911111" velocity="1.91986177778" />
+    <mimic joint="robotiq_2f_85_right_driver_joint" multiplier="1" />
+  </joint>
+  <joint name="robotiq_2f_85_left_driver_joint" type="revolute">
+    <origin rpy="0 0 3.141592653589793" xyz="0 -0.0306011 0.054904" />
+    <parent link="robotiq_2f_85_base" />
+    <child link="robotiq_2f_85_left_driver" />
+    <axis xyz="1 0 0" />
+    <limit effort="176" lower="0.0" upper="0.834" velocity="1.91986177778" />
+    <mimic joint="robotiq_2f_85_right_driver_joint" multiplier="1" />
+  </joint>
+  <joint name="robotiq_2f_85_left_coupler_joint" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0.0315 -0.0041" />
+    <parent link="robotiq_2f_85_left_driver" />
+    <child link="robotiq_2f_85_left_coupler" />
+  </joint>
+  <joint name="robotiq_2f_85_left_follower_joint" type="revolute">
+    <origin rpy="0 0 0" xyz="0 0.0061 0.0471" />
+    <parent link="robotiq_2f_85_left_coupler" />
+    <child link="robotiq_2f_85_left_follower" />
+    <axis xyz="1 0 0" />
+    <limit effort="176" lower="-2.96705911111" upper="2.96705911111" velocity="1.91986177778" />
+    <mimic joint="robotiq_2f_85_right_driver_joint" multiplier="-1" />
+  </joint>
+  <joint name="robotiq_2f_85_left_pad_joint" type="fixed">
+    <parent link="robotiq_2f_85_left_follower" />
+    <child link="robotiq_2f_85_left_pad" />
+  </joint>
+  <joint name="robotiq_2f_85_left_spring_link_joint" type="revolute">
+    <origin rpy="0 0 3.141592653589793" xyz="0 -0.012 0.0614" />
+    <parent link="robotiq_2f_85_base" />
+    <child link="robotiq_2f_85_left_spring_link" />
+    <axis xyz="1 0 0" />
+    <limit effort="176" lower="-2.96705911111" upper="2.96705911111" velocity="1.91986177778" />
+    <mimic joint="robotiq_2f_85_right_driver_joint" multiplier="1" />
+  </joint>
+</robot>

@@ -1,0 +1,8 @@
+╭────── viser (listening *:8080) ───────╮
+│             ╷                         │
+│   HTTP      │ http://localhost:8080   │
+│   Websocket │ ws://localhost:8080     │
+│             ╵                         │
+╰───────────────────────────────────────╯
+(viser) Connection opened (0, 1 total), 147 persistent messages
+(viser) Connection closed (0, 0 total)
