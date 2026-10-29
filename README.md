@@ -1,8 +1,20 @@
-# Robotiq 2F-85 control
+# Robotiq 2F-85 Gripper Python Control & Web UI
 
-Driver, CLI and viser web UI for a Robotiq 2F-85 gripper on a USB-RS485 adapter.
+Driver, CLI and viser web UI for a Robotiq 2F-85 gripper (CB-Series) over
+Modbus RTU on a USB-RS485 adapter.
 Modbus RTU is implemented in-tree (pyserial only), so there is no pymodbus
 version to keep in step.
+
+<table>
+  <tr>
+    <th>Real gripper</th>
+    <th>Web UI</th>
+  </tr>
+  <tr>
+    <td><video src="assets/real.mp4" height="360" controls muted></video></td>
+    <td><video src="assets/robotiq_viser.mp4" height="360" controls muted></video></td>
+  </tr>
+</table>
 
 ## Setup on a new machine
 
